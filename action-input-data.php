@@ -45,7 +45,7 @@
           echo '
           <tr>
             <td>'.$no.'</td>
-            <td>'.$name['name'].' °C</td>
+            <td>'.$name['name'].'</td>
             <td>'.$age['age'].'</td>
             <td>'.$city['city'].'</td>
             <td>Aula</td>
