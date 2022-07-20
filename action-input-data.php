@@ -11,7 +11,7 @@
     echo '<li>Nama: ' . $_POST['name'] . '</li>';
     echo '<li>usia: ' . $_POST['age'] . '</li>';
     echo '<li>Kota: ' . $_POST['city'] . '</li>';
-    echo '<li>Jenis Kelamin: ' . (isset($_POST['jenis_kelamin']) ? $jenis_kelamin[$_POST['jenis_kelamin']] : '-') . '</li>';
+
     
     $list_skill = array();
     foreach ($program as $skill) {
